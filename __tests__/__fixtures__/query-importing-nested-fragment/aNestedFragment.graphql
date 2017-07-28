@@ -1,0 +1,4 @@
+fragment ProductNestedFragment on Product {
+  sku
+  price
+}

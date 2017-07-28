@@ -1,0 +1,5 @@
+fragment simpleQuery on Product {
+  name
+  description
+  weight
+}

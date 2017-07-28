@@ -1,0 +1,9 @@
+#import "./aFragment.graphql"
+
+fragment OtherQueryWithSameFragment on Category {
+  id
+  name
+  products {
+    ...AFragment
+  }
+}

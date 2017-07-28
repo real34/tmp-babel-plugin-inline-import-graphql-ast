@@ -1,0 +1,8 @@
+#import "./aNestedFragment.graphql"
+
+fragment CategoryProductsFragment on Product {
+  products {
+    name
+    ...ProductNestedFragment
+  }
+}

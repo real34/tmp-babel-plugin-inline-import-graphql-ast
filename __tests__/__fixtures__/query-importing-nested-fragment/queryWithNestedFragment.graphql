@@ -1,0 +1,6 @@
+#import "./aFragmentWithNesting.graphql"
+
+fragment QueryWithNestedFragment on Category {
+  name
+  ...CategoryProductsFragment
+}
