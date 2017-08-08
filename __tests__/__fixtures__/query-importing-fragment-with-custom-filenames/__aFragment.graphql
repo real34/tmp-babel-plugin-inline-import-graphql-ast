@@ -1,0 +1,5 @@
+fragment ASingleFragment on Product {
+  name
+  description
+  weight
+}

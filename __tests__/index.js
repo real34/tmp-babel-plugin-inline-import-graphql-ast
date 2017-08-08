@@ -41,6 +41,19 @@ pluginTester({
         "code.js"
       ),
       snapshot: true
+    },
+    {
+      title: "should honor custom babel module loaders",
+      babelOptions: {
+        babelrc: true // does not work properly because plugins are loaded after the SUT
+      },
+      fixture: path.join(
+        __dirname,
+        "__fixtures__",
+        "query-importing-fragment-with-custom-filenames",
+        "code.js"
+      ),
+      snapshot: true
     }
   ]
 });

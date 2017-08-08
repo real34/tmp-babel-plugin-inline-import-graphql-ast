@@ -1,0 +1,6 @@
+#import "./aFragment.graphql"
+
+fragment QueryWithFragment on Product {
+  name
+  ...ASingleFragment
+}
