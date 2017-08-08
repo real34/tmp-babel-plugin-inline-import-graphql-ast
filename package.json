@@ -1,0 +1,26 @@
+{
+  "name": "tmp-babel-plugin-inline-import-graphql-ast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-plugin-tester": "^3.3.0",
+    "babel-preset-es2015-without-strict": "^0.0.4",
+    "babel-preset-stage-1": "^6.24.1",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "babylon": "^6.17.0",
+    "graphql": "^0.9.6",
+    "graphql-tag": "^2.0.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["__fixtures__"]
+  }
+}
